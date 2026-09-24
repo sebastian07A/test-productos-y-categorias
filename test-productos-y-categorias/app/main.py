@@ -148,3 +148,5 @@ def delete_product(product_id: int):
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}
+
+
